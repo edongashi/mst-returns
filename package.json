@@ -1,0 +1,28 @@
+{
+  "name": "mst-returns",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mobx-state-tree",
+    "return",
+    "decorator"
+  ],
+  "author": "Edon Gashi",
+  "license": "MIT",
+  "peerDependencies": {
+    "mobx-state-tree": ">=1.2",
+    "mobx": ">=3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdonGashi/mst-returns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EdonGashi/mst-returns/issues"
+  },
+  "homepage": "https://github.com/EdonGashi/mst-returns#readme"
+}
