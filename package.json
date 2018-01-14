@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "mobx-state-tree",
@@ -24,5 +24,15 @@
   "bugs": {
     "url": "https://github.com/EdonGashi/mst-returns/issues"
   },
-  "homepage": "https://github.com/EdonGashi/mst-returns#readme"
+  "homepage": "https://github.com/EdonGashi/mst-returns#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.0.6",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^22.0.6",
+    "mobx": "^3.4.1",
+    "mobx-state-tree": "^1.3.1",
+    "regenerator-runtime": "^0.11.1"
+  }
 }

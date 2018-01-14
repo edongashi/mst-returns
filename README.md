@@ -32,13 +32,11 @@ const UserManager = types
         return { id: 3, name: 'User 3' }
       }),
 
-      @returnsFlow(User) *getUser4() {
-        yield delay(1000)
-        return { id: 4, name: 'User 4' }
-      })
+      // Note: this is not yet supported in babel 6
+      // @returnsFlow(User) *getUser4() {
+      //   yield delay(1000)
+      //   return { id: 4, name: 'User 4' }
+      // })
     }
   })
-
 ```
-
-It's a quick and untested implementation of the idea. Decorators are not yet supported.
